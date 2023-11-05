@@ -38,3 +38,9 @@ img { transition: 0.4s; }
 img:hover {
     transform: scale(1.05);
 }
+@media screen and (max-width: 426px) {
+    img { width: 330px; }
+}
+@media screen and (max-width: 360px) {
+    img { width: 300px; }
+}
