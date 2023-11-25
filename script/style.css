@@ -10,6 +10,7 @@
 body {
     background-color: #BFB5AF;
     color: #333;
+    margin: 0 10%;
 }
 h1 {
     font-family: 'Metropolis-Bold';
@@ -30,15 +31,20 @@ div {
     gap: 10px;
 }
 img {
-    border: 2.5px solid #333;
-    border-radius: 22px;
+    border: 3px solid #333;
+    border-radius: 23px;
     transition: 0.4s;
     width: 360px;
 }
 img:hover { transform: scale(1.05); }
+@media screen and (max-width: 960px) {
+    body { margin: 0 4%; }
+}
 @media screen and (max-width: 426px) {
+    body { margin: 0; }
     img { width: 330px; }
 }
 @media screen and (max-width: 360px) {
+    h1 { font-size: 48px; }
     img { width: 300px; }
 }
