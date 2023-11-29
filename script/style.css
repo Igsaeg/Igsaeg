@@ -3,8 +3,8 @@
     src: url(../assets/Metropolis-Bold.otf);
 }
 @font-face {
-    font-family: Metropolis-Regular;
-    src: url(../assets/Metropolis-Regular.otf);
+    font-family: Metropolis-Medium;
+    src: url(../assets/Metropolis-Medium.otf);
 }
 
 body {
@@ -20,7 +20,7 @@ h1 {
 }
 h2 { font-size: 30px; }
 p {
-    font-family: 'Metropolis-Regular';
+    font-family: 'Metropolis-Medium';
     text-align: center;
 }
 p#subtitle { margin-bottom: 80px; }
